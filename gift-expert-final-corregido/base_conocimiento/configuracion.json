@@ -1,0 +1,78 @@
+{
+  "relaciones": [
+    "Pareja",
+    "Madre",
+    "Padre",
+    "Hermano/a",
+    "Amigo/a",
+    "Compañero/a de trabajo",
+    "Hijo/a",
+    "Familiar",
+    "Otra"
+  ],
+  "personalidades": [
+    "Práctica",
+    "Creativa",
+    "Aventurera",
+    "Tecnológica",
+    "Sentimental",
+    "Deportiva",
+    "Elegante",
+    "Tranquila"
+  ],
+  "tipos_regalo": [
+    "Objeto útil",
+    "Experiencia",
+    "Detalle sentimental",
+    "Tecnología",
+    "Moda y accesorios",
+    "Bienestar",
+    "Cualquiera"
+  ],
+  "urgencias": [
+    {
+      "valor": "hoy",
+      "nombre": "Hoy o mañana"
+    },
+    {
+      "valor": "semana",
+      "nombre": "Durante esta semana"
+    },
+    {
+      "valor": "mes",
+      "nombre": "Durante este mes"
+    },
+    {
+      "valor": "sin_prisa",
+      "nombre": "Aún tengo tiempo"
+    }
+  ],
+  "restricciones": [
+    {
+      "valor": "Evitar alimentos",
+      "nombre": "Alimentos",
+      "icono": "🍽️"
+    },
+    {
+      "valor": "Evitar experiencias",
+      "nombre": "Experiencias",
+      "icono": "🎟️"
+    },
+    {
+      "valor": "Alergia a plantas",
+      "nombre": "Plantas",
+      "icono": "🪴"
+    },
+    {
+      "valor": "Sensibilidad a fragancias",
+      "nombre": "Fragancias",
+      "icono": "🧴"
+    }
+  ],
+  "limites": {
+    "edad_min": 1,
+    "edad_max": 110,
+    "presupuesto_min": 10000,
+    "presupuesto_max": 20000000
+  }
+}

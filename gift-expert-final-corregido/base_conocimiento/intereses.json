@@ -1,0 +1,114 @@
+[
+  {
+    "nombre": "Tecnología",
+    "icono": "💻"
+  },
+  {
+    "nombre": "Música",
+    "icono": "🎵"
+  },
+  {
+    "nombre": "Viajes",
+    "icono": "✈️"
+  },
+  {
+    "nombre": "Deportes",
+    "icono": "🏃"
+  },
+  {
+    "nombre": "Fútbol",
+    "icono": "⚽"
+  },
+  {
+    "nombre": "Gimnasio",
+    "icono": "🏋️"
+  },
+  {
+    "nombre": "Lectura",
+    "icono": "📚"
+  },
+  {
+    "nombre": "Historia",
+    "icono": "🏛️"
+  },
+  {
+    "nombre": "Ciencia",
+    "icono": "🔬"
+  },
+  {
+    "nombre": "Arte",
+    "icono": "🎨"
+  },
+  {
+    "nombre": "Fotografía",
+    "icono": "📷"
+  },
+  {
+    "nombre": "Naturaleza",
+    "icono": "🌿"
+  },
+  {
+    "nombre": "Gastronomía",
+    "icono": "🍽️"
+  },
+  {
+    "nombre": "Experiencias",
+    "icono": "🎟️"
+  },
+  {
+    "nombre": "Bienestar",
+    "icono": "🧘"
+  },
+  {
+    "nombre": "Salud",
+    "icono": "❤️"
+  },
+  {
+    "nombre": "Belleza",
+    "icono": "✨"
+  },
+  {
+    "nombre": "Moda",
+    "icono": "👕"
+  },
+  {
+    "nombre": "Cuidado personal",
+    "icono": "🧴"
+  },
+  {
+    "nombre": "Hogar",
+    "icono": "🏠"
+  },
+  {
+    "nombre": "Decoración",
+    "icono": "🖼️"
+  },
+  {
+    "nombre": "Familia",
+    "icono": "👨‍👩‍👧‍👦"
+  },
+  {
+    "nombre": "Cocina",
+    "icono": "👨‍🍳"
+  },
+  {
+    "nombre": "Idiomas",
+    "icono": "🌎"
+  },
+  {
+    "nombre": "Compras",
+    "icono": "🛍️"
+  },
+  {
+    "nombre": "Estudio",
+    "icono": "📝"
+  },
+  {
+    "nombre": "Videojuegos",
+    "icono": "🎮"
+  },
+  {
+    "nombre": "Café",
+    "icono": "☕"
+  }
+]

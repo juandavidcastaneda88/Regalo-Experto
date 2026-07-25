@@ -1,0 +1,1986 @@
+[
+  {
+    "id": "8131d68a-e526-4e2b-9e57-8d49a592d022",
+    "fecha": "2026-07-24T17:28:25-05:00",
+    "consulta": {
+      "edad": 59,
+      "relacion": "Padre",
+      "ocasion": "Cumpleaños",
+      "urgencia": "hoy",
+      "intereses": [
+        "Tecnología"
+      ],
+      "personalidad": "Tecnológica",
+      "tipo_regalo": "Objeto útil",
+      "presupuesto": 250000,
+      "restricciones": []
+    },
+    "resultado": {
+      "recomendaciones": [
+        {
+          "id": "audifonos",
+          "nombre": "Audífonos inalámbricos",
+          "categoria": "Tecnología",
+          "precio": 180000,
+          "imagen": "🎧",
+          "descripcion": "Una opción versátil para escuchar música, estudiar, trabajar o viajar.",
+          "porcentaje": 89,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.03
+        },
+        {
+          "id": "suscripcion",
+          "nombre": "Suscripción digital",
+          "categoria": "Digital",
+          "precio": 80000,
+          "imagen": "📺",
+          "descripcion": "Acceso a entretenimiento, lectura, música o aprendizaje durante varios meses.",
+          "porcentaje": 86,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.43
+        },
+        {
+          "id": "curso",
+          "nombre": "Curso o taller",
+          "categoria": "Aprendizaje",
+          "precio": 160000,
+          "imagen": "🎓",
+          "descripcion": "Una experiencia para aprender una habilidad nueva y útil.",
+          "porcentaje": 84,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.11
+        },
+        {
+          "id": "bono",
+          "nombre": "Tarjeta o bono de regalo",
+          "categoria": "Flexible",
+          "precio": 100000,
+          "imagen": "💳",
+          "descripcion": "Permite que la persona elija exactamente lo que desea.",
+          "porcentaje": 74,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.35
+        },
+        {
+          "id": "kit_cafe",
+          "nombre": "Kit de café especial",
+          "categoria": "Gastronomía",
+          "precio": 145000,
+          "imagen": "☕",
+          "descripcion": "Café seleccionado, taza y accesorios para disfrutar un ritual especial.",
+          "porcentaje": 57,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.17
+        },
+        {
+          "id": "planta",
+          "nombre": "Planta decorativa",
+          "categoria": "Hogar",
+          "precio": 70000,
+          "imagen": "🪴",
+          "descripcion": "Un detalle duradero para decorar, acompañar y cuidar.",
+          "porcentaje": 54,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.47
+        },
+        {
+          "id": "libro",
+          "nombre": "Libro especial",
+          "categoria": "Cultura",
+          "precio": 65000,
+          "imagen": "📚",
+          "descripcion": "Un detalle personal capaz de inspirar, enseñar o emocionar.",
+          "porcentaje": 54,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.49
+        },
+        {
+          "id": "perfume",
+          "nombre": "Perfume o fragancia",
+          "categoria": "Cuidado personal",
+          "precio": 210000,
+          "imagen": "🧴",
+          "descripcion": "Una opción elegante cuando conoces bien los gustos de la persona.",
+          "porcentaje": 45,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.09
+        },
+        {
+          "id": "balon",
+          "nombre": "Balón o accesorio deportivo",
+          "categoria": "Deportes",
+          "precio": 120000,
+          "imagen": "⚽",
+          "descripcion": "Para entrenar, jugar y disfrutar su deporte favorito.",
+          "porcentaje": 45,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.27
+        },
+        {
+          "id": "mochila",
+          "nombre": "Mochila de viaje",
+          "categoria": "Viajes",
+          "precio": 240000,
+          "imagen": "🎒",
+          "descripcion": "Cómoda, resistente y práctica para viajes, estudio o trabajo.",
+          "porcentaje": 44,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 4.2,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.21
+        }
+      ],
+      "mensaje": "Las alternativas se calcularon con reglas ponderadas, presupuesto, contexto y preferencias; nunca por género.",
+      "resumen_inferencia": {
+        "metodo": "Encadenamiento hacia adelante con puntuación ponderada",
+        "reglas_evaluadas": 8,
+        "regalos_evaluados": 18,
+        "regalos_descartados": 5,
+        "alternativas_compatibles": 13,
+        "resolucion_conflictos": "Mayor afinidad, más coincidencias, mejor ajuste al presupuesto y menor precio"
+      }
+    }
+  },
+  {
+    "id": "63d77daf-909e-4a05-a9bf-bb133bc9de7f",
+    "fecha": "2026-07-22T20:46:25-05:00",
+    "consulta": {
+      "edad": 5,
+      "relacion": "Hermano/a",
+      "ocasion": "Cumpleaños",
+      "urgencia": "semana",
+      "intereses": [
+        "Salud"
+      ],
+      "personalidad": "Creativa",
+      "tipo_regalo": "Objeto útil",
+      "presupuesto": 250000,
+      "restricciones": [
+        "Evitar alimentos",
+        "Evitar experiencias",
+        "Alergia a plantas"
+      ]
+    },
+    "resultado": {
+      "recomendaciones": [
+        {
+          "id": "libro",
+          "nombre": "Libro especial",
+          "categoria": "Cultura",
+          "precio": 65000,
+          "imagen": "📚",
+          "descripcion": "Un detalle personal capaz de inspirar, enseñar o emocionar.",
+          "porcentaje": 63,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.49
+        },
+        {
+          "id": "album",
+          "nombre": "Álbum personalizado de recuerdos",
+          "categoria": "Sentimental",
+          "precio": 90000,
+          "imagen": "📸",
+          "descripcion": "Fotos, mensajes y momentos importantes reunidos en un detalle único.",
+          "porcentaje": 54,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con su personalidad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Se adapta a la personalidad descrita. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.39
+        },
+        {
+          "id": "audifonos",
+          "nombre": "Audífonos inalámbricos",
+          "categoria": "Tecnología",
+          "precio": 180000,
+          "imagen": "🎧",
+          "descripcion": "Una opción versátil para escuchar música, estudiar, trabajar o viajar.",
+          "porcentaje": 50,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.03
+        },
+        {
+          "id": "balon",
+          "nombre": "Balón o accesorio deportivo",
+          "categoria": "Deportes",
+          "precio": 120000,
+          "imagen": "⚽",
+          "descripcion": "Para entrenar, jugar y disfrutar su deporte favorito.",
+          "porcentaje": 50,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.27
+        },
+        {
+          "id": "mochila",
+          "nombre": "Mochila de viaje",
+          "categoria": "Viajes",
+          "precio": 240000,
+          "imagen": "🎒",
+          "descripcion": "Cómoda, resistente y práctica para viajes, estudio o trabajo.",
+          "porcentaje": 48,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 4.2,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.21
+        },
+        {
+          "id": "suscripcion",
+          "nombre": "Suscripción digital",
+          "categoria": "Digital",
+          "precio": 80000,
+          "imagen": "📺",
+          "descripcion": "Acceso a entretenimiento, lectura, música o aprendizaje durante varios meses.",
+          "porcentaje": 47,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.43
+        },
+        {
+          "id": "perfume",
+          "nombre": "Perfume o fragancia",
+          "categoria": "Cuidado personal",
+          "precio": 210000,
+          "imagen": "🧴",
+          "descripcion": "Una opción elegante cuando conoces bien los gustos de la persona.",
+          "porcentaje": 39,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.09
+        },
+        {
+          "id": "bono",
+          "nombre": "Tarjeta o bono de regalo",
+          "categoria": "Flexible",
+          "precio": 100000,
+          "imagen": "💳",
+          "descripcion": "Permite que la persona elija exactamente lo que desea.",
+          "porcentaje": 39,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Coincide con el tipo de regalo",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Respeta el tipo de regalo que prefieres entregar. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.35
+        }
+      ],
+      "mensaje": "Las alternativas se calcularon con reglas ponderadas, presupuesto, contexto y preferencias; nunca por género.",
+      "resumen_inferencia": {
+        "metodo": "Encadenamiento hacia adelante con puntuación ponderada",
+        "reglas_evaluadas": 8,
+        "regalos_evaluados": 18,
+        "regalos_descartados": 10,
+        "alternativas_compatibles": 8,
+        "resolucion_conflictos": "Mayor afinidad, más coincidencias, mejor ajuste al presupuesto y menor precio"
+      }
+    }
+  },
+  {
+    "id": "0e11d98f-f3ba-42a1-95a4-e8dce43d05bd",
+    "fecha": "2026-07-22T20:42:49-05:00",
+    "consulta": {
+      "edad": 60,
+      "relacion": "Madre",
+      "ocasion": "Cumpleaños",
+      "urgencia": "semana",
+      "intereses": [
+        "Tecnología"
+      ],
+      "personalidad": "Práctica",
+      "tipo_regalo": "Objeto útil",
+      "presupuesto": 250000,
+      "restricciones": [
+        "Evitar alimentos",
+        "Evitar experiencias"
+      ]
+    },
+    "resultado": {
+      "recomendaciones": [
+        {
+          "id": "audifonos",
+          "nombre": "Audífonos inalámbricos",
+          "categoria": "Tecnología",
+          "precio": 180000,
+          "imagen": "🎧",
+          "descripcion": "Una opción versátil para escuchar música, estudiar, trabajar o viajar.",
+          "porcentaje": 89,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.03
+        },
+        {
+          "id": "bono",
+          "nombre": "Tarjeta o bono de regalo",
+          "categoria": "Flexible",
+          "precio": 100000,
+          "imagen": "💳",
+          "descripcion": "Permite que la persona elija exactamente lo que desea.",
+          "porcentaje": 89,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.35
+        },
+        {
+          "id": "suscripcion",
+          "nombre": "Suscripción digital",
+          "categoria": "Digital",
+          "precio": 80000,
+          "imagen": "📺",
+          "descripcion": "Acceso a entretenimiento, lectura, música o aprendizaje durante varios meses.",
+          "porcentaje": 86,
+          "coincidencias": [
+            "Coincide con sus intereses",
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Está relacionado con: Tecnología. Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": true,
+              "puntos": 30,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.43
+        },
+        {
+          "id": "planta",
+          "nombre": "Planta decorativa",
+          "categoria": "Hogar",
+          "precio": 70000,
+          "imagen": "🪴",
+          "descripcion": "Un detalle duradero para decorar, acompañar y cuidar.",
+          "porcentaje": 69,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.47
+        },
+        {
+          "id": "libro",
+          "nombre": "Libro especial",
+          "categoria": "Cultura",
+          "precio": 65000,
+          "imagen": "📚",
+          "descripcion": "Un detalle personal capaz de inspirar, enseñar o emocionar.",
+          "porcentaje": 69,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 3.3,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.49
+        },
+        {
+          "id": "balon",
+          "nombre": "Balón o accesorio deportivo",
+          "categoria": "Deportes",
+          "precio": 120000,
+          "imagen": "⚽",
+          "descripcion": "Para entrenar, jugar y disfrutar su deporte favorito.",
+          "porcentaje": 60,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.27
+        },
+        {
+          "id": "mochila",
+          "nombre": "Mochila de viaje",
+          "categoria": "Viajes",
+          "precio": 240000,
+          "imagen": "🎒",
+          "descripcion": "Cómoda, resistente y práctica para viajes, estudio o trabajo.",
+          "porcentaje": 59,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Coincide con su personalidad",
+            "Coincide con el tipo de regalo",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Se adapta a la personalidad descrita. Respeta el tipo de regalo que prefieres entregar. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": true,
+              "puntos": 16,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 4.2,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.21
+        },
+        {
+          "id": "perfume",
+          "nombre": "Perfume o fragancia",
+          "categoria": "Cuidado personal",
+          "precio": 210000,
+          "imagen": "🧴",
+          "descripcion": "Una opción elegante cuando conoces bien los gustos de la persona.",
+          "porcentaje": 45,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.09
+        },
+        {
+          "id": "album",
+          "nombre": "Álbum personalizado de recuerdos",
+          "categoria": "Sentimental",
+          "precio": 90000,
+          "imagen": "📸",
+          "descripcion": "Fotos, mensajes y momentos importantes reunidos en un detalle único.",
+          "porcentaje": 45,
+          "coincidencias": [
+            "Adecuado para la ocasión",
+            "Adecuado para la relación",
+            "Adecuado para la edad",
+            "Buen uso del presupuesto",
+            "Disponible a tiempo"
+          ],
+          "explicacion": "Es apropiado para la ocasión seleccionada. Encaja con el vínculo que tienes con la persona. Es adecuado para el rango de edad indicado. Aprovecha el presupuesto sin superarlo. Puede conseguirse dentro del plazo indicado.",
+          "detalle_reglas": [
+            {
+              "regla": "intereses",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 30
+            },
+            {
+              "regla": "ocasion",
+              "activada": true,
+              "puntos": 18,
+              "maximo": 18
+            },
+            {
+              "regla": "relacion",
+              "activada": true,
+              "puntos": 12,
+              "maximo": 12
+            },
+            {
+              "regla": "personalidad",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 16
+            },
+            {
+              "regla": "tipo_regalo",
+              "activada": false,
+              "puntos": 0,
+              "maximo": 12
+            },
+            {
+              "regla": "edad",
+              "activada": true,
+              "puntos": 7,
+              "maximo": 7
+            },
+            {
+              "regla": "presupuesto",
+              "activada": true,
+              "puntos": 6,
+              "maximo": 6
+            },
+            {
+              "regla": "urgencia",
+              "activada": true,
+              "puntos": 5,
+              "maximo": 5
+            }
+          ],
+          "distancia_presupuesto": 0.39
+        }
+      ],
+      "mensaje": "Las alternativas se calcularon con reglas ponderadas, presupuesto, contexto y preferencias; nunca por género.",
+      "resumen_inferencia": {
+        "metodo": "Encadenamiento hacia adelante con puntuación ponderada",
+        "reglas_evaluadas": 8,
+        "regalos_evaluados": 18,
+        "regalos_descartados": 9,
+        "alternativas_compatibles": 9,
+        "resolucion_conflictos": "Mayor afinidad, más coincidencias, mejor ajuste al presupuesto y menor precio"
+      }
+    }
+  },
+  {
+    "id": "a76f87f3-e028-4e78-b245-f03ee131f599",
+    "fecha": "2026-07-22T20:41:53-05:00",
+    "consulta": {
+      "edad": 26,
+      "relacion": "Pareja",
+      "ocasion": "Aniversario",
+      "urgencia": "semana",
+      "intereses": [
+        "Tecnología"
+      ],
+      "personalidad": "Práctica",
+      "tipo_regalo": "Objeto útil",
+      "presupuesto": 50000,
+      "restricciones": [
+        "Alergia a plantas"
+      ]
+    },
+    "resultado": {
+      "recomendaciones": [],
+      "mensaje": "No encontramos un regalo compatible con el presupuesto y todas las restricciones. Ajusta uno de esos criterios.",
+      "resumen_inferencia": {
+        "metodo": "Encadenamiento hacia adelante con puntuación ponderada",
+        "reglas_evaluadas": 8,
+        "regalos_evaluados": 18,
+        "regalos_descartados": 18,
+        "alternativas_compatibles": 0,
+        "resolucion_conflictos": "Mayor afinidad, más coincidencias, mejor ajuste al presupuesto y menor precio"
+      }
+    }
+  }
+]

@@ -1,0 +1,829 @@
+[
+  {
+    "id": "smartwatch",
+    "nombre": "Reloj inteligente",
+    "categoria": "Tecnología",
+    "precio": 280000,
+    "imagen": "⌚",
+    "descripcion": "Ideal para actividad física, organización, salud y notificaciones.",
+    "intereses": [
+      "Tecnología",
+      "Deportes",
+      "Gimnasio",
+      "Salud"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Graduación"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tecnológica",
+      "Deportiva",
+      "Práctica"
+    ],
+    "tipos": [
+      "Tecnología",
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 14,
+    "edad_max": 75,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "audifonos",
+    "nombre": "Audífonos inalámbricos",
+    "categoria": "Tecnología",
+    "precio": 180000,
+    "imagen": "🎧",
+    "descripcion": "Una opción versátil para escuchar música, estudiar, trabajar o viajar.",
+    "intereses": [
+      "Música",
+      "Tecnología",
+      "Viajes",
+      "Estudio"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Graduación"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Compañero/a de trabajo",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tecnológica",
+      "Tranquila",
+      "Práctica"
+    ],
+    "tipos": [
+      "Tecnología",
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 12,
+    "edad_max": 80,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "libro",
+    "nombre": "Libro especial",
+    "categoria": "Cultura",
+    "precio": 65000,
+    "imagen": "📚",
+    "descripcion": "Un detalle personal capaz de inspirar, enseñar o emocionar.",
+    "intereses": [
+      "Lectura",
+      "Historia",
+      "Ciencia",
+      "Arte",
+      "Estudio"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Agradecimiento",
+      "Graduación"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Hermano/a",
+      "Amigo/a",
+      "Compañero/a de trabajo",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Creativa",
+      "Tranquila",
+      "Sentimental",
+      "Práctica"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 10,
+    "edad_max": 100,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "cena",
+    "nombre": "Cena o experiencia gastronómica",
+    "categoria": "Experiencia",
+    "precio": 220000,
+    "imagen": "🍽️",
+    "descripcion": "Un momento para compartir, conversar y crear recuerdos especiales.",
+    "intereses": [
+      "Gastronomía",
+      "Experiencias",
+      "Viajes",
+      "Familia"
+    ],
+    "ocasiones": [
+      "Aniversario",
+      "Cumpleaños",
+      "San Valentín",
+      "Agradecimiento"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Amigo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Sentimental",
+      "Aventurera",
+      "Elegante"
+    ],
+    "tipos": [
+      "Experiencia",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 18,
+    "edad_max": 100,
+    "restricciones": [
+      "Evitar alimentos"
+    ],
+    "disponibilidad": [
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "spa",
+    "nombre": "Día de spa o masaje",
+    "categoria": "Bienestar",
+    "precio": 190000,
+    "imagen": "🧖",
+    "descripcion": "Una experiencia de descanso, relajación y cuidado personal.",
+    "intereses": [
+      "Bienestar",
+      "Salud",
+      "Belleza",
+      "Cuidado personal"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Día de la Madre",
+      "Aniversario",
+      "Agradecimiento"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Amigo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tranquila",
+      "Elegante",
+      "Sentimental"
+    ],
+    "tipos": [
+      "Experiencia",
+      "Bienestar",
+      "Cualquiera"
+    ],
+    "edad_min": 18,
+    "edad_max": 90,
+    "restricciones": [
+      "Evitar experiencias"
+    ],
+    "disponibilidad": [
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "mochila",
+    "nombre": "Mochila de viaje",
+    "categoria": "Viajes",
+    "precio": 240000,
+    "imagen": "🎒",
+    "descripcion": "Cómoda, resistente y práctica para viajes, estudio o trabajo.",
+    "intereses": [
+      "Viajes",
+      "Naturaleza",
+      "Estudio"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Graduación",
+      "Navidad"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Aventurera",
+      "Práctica",
+      "Deportiva"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Moda y accesorios",
+      "Cualquiera"
+    ],
+    "edad_min": 12,
+    "edad_max": 70,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "album",
+    "nombre": "Álbum personalizado de recuerdos",
+    "categoria": "Sentimental",
+    "precio": 90000,
+    "imagen": "📸",
+    "descripcion": "Fotos, mensajes y momentos importantes reunidos en un detalle único.",
+    "intereses": [
+      "Fotografía",
+      "Familia",
+      "Arte"
+    ],
+    "ocasiones": [
+      "Aniversario",
+      "Cumpleaños",
+      "Día de la Madre",
+      "Día del Padre",
+      "Agradecimiento"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Hermano/a",
+      "Amigo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Sentimental",
+      "Creativa",
+      "Tranquila"
+    ],
+    "tipos": [
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 10,
+    "edad_max": 100,
+    "restricciones": [],
+    "disponibilidad": [
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "curso",
+    "nombre": "Curso o taller",
+    "categoria": "Aprendizaje",
+    "precio": 160000,
+    "imagen": "🎓",
+    "descripcion": "Una experiencia para aprender una habilidad nueva y útil.",
+    "intereses": [
+      "Tecnología",
+      "Cocina",
+      "Arte",
+      "Música",
+      "Fotografía",
+      "Idiomas",
+      "Estudio"
+    ],
+    "ocasiones": [
+      "Graduación",
+      "Cumpleaños",
+      "Navidad"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Creativa",
+      "Tecnológica",
+      "Aventurera",
+      "Práctica"
+    ],
+    "tipos": [
+      "Experiencia",
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 14,
+    "edad_max": 75,
+    "restricciones": [
+      "Evitar experiencias"
+    ],
+    "disponibilidad": [
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "planta",
+    "nombre": "Planta decorativa",
+    "categoria": "Hogar",
+    "precio": 70000,
+    "imagen": "🪴",
+    "descripcion": "Un detalle duradero para decorar, acompañar y cuidar.",
+    "intereses": [
+      "Naturaleza",
+      "Hogar",
+      "Decoración",
+      "Arte"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Agradecimiento",
+      "Inauguración",
+      "Otra"
+    ],
+    "relaciones": [
+      "Madre",
+      "Padre",
+      "Amigo/a",
+      "Compañero/a de trabajo",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tranquila",
+      "Práctica",
+      "Elegante"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 18,
+    "edad_max": 100,
+    "restricciones": [
+      "Alergia a plantas"
+    ],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "balon",
+    "nombre": "Balón o accesorio deportivo",
+    "categoria": "Deportes",
+    "precio": 120000,
+    "imagen": "⚽",
+    "descripcion": "Para entrenar, jugar y disfrutar su deporte favorito.",
+    "intereses": [
+      "Deportes",
+      "Fútbol",
+      "Gimnasio"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Graduación"
+    ],
+    "relaciones": [
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Deportiva",
+      "Aventurera",
+      "Práctica"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 6,
+    "edad_max": 65,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "perfume",
+    "nombre": "Perfume o fragancia",
+    "categoria": "Cuidado personal",
+    "precio": 210000,
+    "imagen": "🧴",
+    "descripcion": "Una opción elegante cuando conoces bien los gustos de la persona.",
+    "intereses": [
+      "Belleza",
+      "Moda",
+      "Cuidado personal"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Aniversario",
+      "Navidad",
+      "San Valentín"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Hermano/a",
+      "Amigo/a"
+    ],
+    "personalidades": [
+      "Elegante",
+      "Sentimental"
+    ],
+    "tipos": [
+      "Moda y accesorios",
+      "Bienestar",
+      "Cualquiera"
+    ],
+    "edad_min": 16,
+    "edad_max": 90,
+    "restricciones": [
+      "Sensibilidad a fragancias"
+    ],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "bono",
+    "nombre": "Tarjeta o bono de regalo",
+    "categoria": "Flexible",
+    "precio": 100000,
+    "imagen": "💳",
+    "descripcion": "Permite que la persona elija exactamente lo que desea.",
+    "intereses": [
+      "Compras",
+      "Moda",
+      "Tecnología",
+      "Gastronomía"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Agradecimiento",
+      "Graduación",
+      "Otra"
+    ],
+    "relaciones": [
+      "Compañero/a de trabajo",
+      "Amigo/a",
+      "Familiar",
+      "Otra"
+    ],
+    "personalidades": [
+      "Práctica"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 14,
+    "edad_max": 100,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "escapada",
+    "nombre": "Escapada de fin de semana",
+    "categoria": "Experiencia",
+    "precio": 850000,
+    "imagen": "🏕️",
+    "descripcion": "Una experiencia memorable para desconectarse y compartir.",
+    "intereses": [
+      "Viajes",
+      "Naturaleza",
+      "Experiencias"
+    ],
+    "ocasiones": [
+      "Aniversario",
+      "Cumpleaños",
+      "San Valentín"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Amigo/a"
+    ],
+    "personalidades": [
+      "Aventurera",
+      "Sentimental",
+      "Tranquila"
+    ],
+    "tipos": [
+      "Experiencia",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 18,
+    "edad_max": 75,
+    "restricciones": [
+      "Evitar experiencias"
+    ],
+    "disponibilidad": [
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "consola",
+    "nombre": "Consola portátil o videojuego",
+    "categoria": "Tecnología",
+    "precio": 950000,
+    "imagen": "🎮",
+    "descripcion": "Una alternativa entretenida para amantes de la tecnología y los videojuegos.",
+    "intereses": [
+      "Tecnología",
+      "Videojuegos",
+      "Experiencias"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Graduación"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a"
+    ],
+    "personalidades": [
+      "Tecnológica",
+      "Creativa"
+    ],
+    "tipos": [
+      "Tecnología",
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 10,
+    "edad_max": 55,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "camara",
+    "nombre": "Cámara instantánea",
+    "categoria": "Fotografía",
+    "precio": 520000,
+    "imagen": "📷",
+    "descripcion": "Permite capturar y conservar momentos de manera creativa.",
+    "intereses": [
+      "Fotografía",
+      "Arte",
+      "Viajes",
+      "Familia"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Graduación",
+      "Aniversario"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Creativa",
+      "Aventurera",
+      "Sentimental"
+    ],
+    "tipos": [
+      "Tecnología",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 12,
+    "edad_max": 75,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "kit_cafe",
+    "nombre": "Kit de café especial",
+    "categoria": "Gastronomía",
+    "precio": 145000,
+    "imagen": "☕",
+    "descripcion": "Café seleccionado, taza y accesorios para disfrutar un ritual especial.",
+    "intereses": [
+      "Café",
+      "Gastronomía",
+      "Hogar"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Agradecimiento",
+      "Día del Padre"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Padre",
+      "Amigo/a",
+      "Compañero/a de trabajo",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tranquila",
+      "Práctica",
+      "Elegante"
+    ],
+    "tipos": [
+      "Objeto útil",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 18,
+    "edad_max": 100,
+    "restricciones": [
+      "Evitar alimentos"
+    ],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "suscripcion",
+    "nombre": "Suscripción digital",
+    "categoria": "Digital",
+    "precio": 80000,
+    "imagen": "📺",
+    "descripcion": "Acceso a entretenimiento, lectura, música o aprendizaje durante varios meses.",
+    "intereses": [
+      "Música",
+      "Lectura",
+      "Tecnología",
+      "Videojuegos",
+      "Estudio"
+    ],
+    "ocasiones": [
+      "Cumpleaños",
+      "Navidad",
+      "Agradecimiento",
+      "Graduación",
+      "Otra"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Hermano/a",
+      "Amigo/a",
+      "Hijo/a",
+      "Compañero/a de trabajo",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Tecnológica",
+      "Tranquila",
+      "Práctica"
+    ],
+    "tipos": [
+      "Tecnología",
+      "Experiencia",
+      "Objeto útil",
+      "Cualquiera"
+    ],
+    "edad_min": 12,
+    "edad_max": 100,
+    "restricciones": [],
+    "disponibilidad": [
+      "hoy",
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  },
+  {
+    "id": "joya",
+    "nombre": "Joyería personalizada",
+    "categoria": "Moda y accesorios",
+    "precio": 320000,
+    "imagen": "💍",
+    "descripcion": "Un accesorio grabado con una fecha, inicial o mensaje significativo.",
+    "intereses": [
+      "Moda",
+      "Arte",
+      "Familia",
+      "Belleza"
+    ],
+    "ocasiones": [
+      "Aniversario",
+      "Cumpleaños",
+      "San Valentín",
+      "Día de la Madre"
+    ],
+    "relaciones": [
+      "Pareja",
+      "Madre",
+      "Hermano/a",
+      "Amigo/a",
+      "Familiar"
+    ],
+    "personalidades": [
+      "Elegante",
+      "Sentimental",
+      "Creativa"
+    ],
+    "tipos": [
+      "Moda y accesorios",
+      "Detalle sentimental",
+      "Cualquiera"
+    ],
+    "edad_min": 16,
+    "edad_max": 100,
+    "restricciones": [],
+    "disponibilidad": [
+      "semana",
+      "mes",
+      "sin_prisa"
+    ]
+  }
+]

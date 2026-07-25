@@ -1,0 +1,72 @@
+[
+  {
+    "id": "intereses",
+    "campo": "intereses",
+    "atributo_regalo": "intereses",
+    "operador": "interseccion_proporcional",
+    "peso": 30,
+    "etiqueta": "Coincide con sus intereses",
+    "explicacion": "Está relacionado con: {coincidencias}."
+  },
+  {
+    "id": "ocasion",
+    "campo": "ocasion",
+    "atributo_regalo": "ocasiones",
+    "operador": "incluye",
+    "peso": 18,
+    "etiqueta": "Adecuado para la ocasión",
+    "explicacion": "Es apropiado para la ocasión seleccionada."
+  },
+  {
+    "id": "relacion",
+    "campo": "relacion",
+    "atributo_regalo": "relaciones",
+    "operador": "incluye",
+    "peso": 12,
+    "etiqueta": "Adecuado para la relación",
+    "explicacion": "Encaja con el vínculo que tienes con la persona."
+  },
+  {
+    "id": "personalidad",
+    "campo": "personalidad",
+    "atributo_regalo": "personalidades",
+    "operador": "incluye",
+    "peso": 16,
+    "etiqueta": "Coincide con su personalidad",
+    "explicacion": "Se adapta a la personalidad descrita."
+  },
+  {
+    "id": "tipo_regalo",
+    "campo": "tipo_regalo",
+    "atributo_regalo": "tipos",
+    "operador": "incluye_o_cualquiera",
+    "peso": 12,
+    "etiqueta": "Coincide con el tipo de regalo",
+    "explicacion": "Respeta el tipo de regalo que prefieres entregar."
+  },
+  {
+    "id": "edad",
+    "campo": "edad",
+    "operador": "rango_edad",
+    "peso": 7,
+    "etiqueta": "Adecuado para la edad",
+    "explicacion": "Es adecuado para el rango de edad indicado."
+  },
+  {
+    "id": "presupuesto",
+    "campo": "presupuesto",
+    "operador": "ajuste_presupuesto",
+    "peso": 6,
+    "etiqueta": "Buen uso del presupuesto",
+    "explicacion": "Aprovecha el presupuesto sin superarlo."
+  },
+  {
+    "id": "urgencia",
+    "campo": "urgencia",
+    "atributo_regalo": "disponibilidad",
+    "operador": "disponibilidad",
+    "peso": 5,
+    "etiqueta": "Disponible a tiempo",
+    "explicacion": "Puede conseguirse dentro del plazo indicado."
+  }
+]

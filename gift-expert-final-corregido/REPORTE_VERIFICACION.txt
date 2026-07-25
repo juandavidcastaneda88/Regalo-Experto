@@ -1,0 +1,18 @@
+GIFT EXPERT — REPORTE DE VERIFICACIÓN
+
+Resultado: CORRECTO
+
+Pruebas automáticas:
+- 11 pruebas superadas.
+- Página principal servida correctamente.
+- CSS y JavaScript disponibles desde Flask.
+- Ruta /index.html disponible.
+- Motor de inferencia Python operativo.
+- API de recomendación funcional.
+- Historial funcional.
+- Validación de datos funcional.
+- CORS habilitado para conectar el index.html abierto directamente con Flask local.
+- 18 regalos y 8 reglas cargados desde JSON.
+
+La aplicación debe iniciarse con EJECUTAR_GIFT_EXPERT.bat en Windows.
+URL: http://127.0.0.1:5000

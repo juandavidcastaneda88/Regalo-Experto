@@ -1,0 +1,14 @@
+GIFT EXPERT — INSTRUCCIONES RÁPIDAS
+
+WINDOWS
+1. Descomprime toda la carpeta ZIP.
+2. Haz doble clic en EJECUTAR_GIFT_EXPERT.bat.
+3. Espera a que se instalen las dependencias la primera vez.
+4. El navegador abrirá automáticamente http://127.0.0.1:5000
+5. Mantén abierta la ventana del servidor mientras usas la plataforma.
+
+IMPORTANTE
+- No es necesario abrir templates/index.html.
+- El index.html de la raíz sí se verá bonito al abrirlo directamente.
+- Para que las recomendaciones se calculen con Python, primero ejecuta el archivo .bat.
+- Si abres index.html directamente mientras el servidor está activo, también se conectará al motor Python.

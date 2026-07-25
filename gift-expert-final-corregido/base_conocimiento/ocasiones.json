@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Cumpleaños",
+    "icono": "🎂"
+  },
+  {
+    "nombre": "Aniversario",
+    "icono": "💞"
+  },
+  {
+    "nombre": "Navidad",
+    "icono": "🎄"
+  },
+  {
+    "nombre": "San Valentín",
+    "icono": "💝"
+  },
+  {
+    "nombre": "Día de la Madre",
+    "icono": "🌷"
+  },
+  {
+    "nombre": "Día del Padre",
+    "icono": "👔"
+  },
+  {
+    "nombre": "Graduación",
+    "icono": "🎓"
+  },
+  {
+    "nombre": "Agradecimiento",
+    "icono": "🤍"
+  },
+  {
+    "nombre": "Inauguración",
+    "icono": "🏠"
+  },
+  {
+    "nombre": "Otra",
+    "icono": "✨"
+  }
+]

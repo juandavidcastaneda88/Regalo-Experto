@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sistema experto para recomendar regalos según gustos, ocasión y presupuesto.">
+  <title>Gift Expert | Encuentra el regalo perfecto</title>
+  <link rel="stylesheet" href="../static/css/styles.css?v=5">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a href="#inicio" class="brand">
+        <span class="brand-icon">🎁</span>
+        <span>
+          <strong>Gift Expert</strong>
+          <small>Python + Flask</small>
+        </span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="nav-link" data-view="home">Inicio</button>
+        <button class="nav-link" data-view="history">Historial</button>
+        <button class="icon-button" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+        <div class="backend-status" id="backendStatus" data-state="checking" title="Estado del motor Python">
+          <span></span><strong>Conectando</strong>
+        </div>
+        <button class="primary-button small-button" id="navStart">Nueva consulta</button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="connection-banner hidden" id="connectionBanner">
+    <div class="container connection-banner-inner">
+      <div><strong id="connectionTitle">Motor Python desconectado</strong><span id="connectionText">Ejecuta el iniciador para activar las recomendaciones.</span></div>
+      <a class="banner-link" href="http://127.0.0.1:5000" target="_blank" rel="noopener">Abrir servidor</a>
+    </div>
+  </div>
+
+  <main>
+    <section id="homeView" class="view active">
+      <section class="hero container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Inteligencia + empatía + datos</div>
+          <h1>Encuentra un regalo que realmente conecte.</h1>
+          <p class="hero-text">
+            Responde algunas preguntas y el motor de inferencia en Python analizará
+            gustos, personalidad, ocasión, relación y presupuesto para recomendar
+            las mejores alternativas con una explicación clara.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-button" id="heroStart">
+              Empezar recomendación <span>→</span>
+            </button>
+            <button class="secondary-button" id="demoButton">Ver una demostración</button>
+          </div>
+
+          <div class="trust-row">
+            <div><strong>100%</strong><span>personalizado</span></div>
+            <div><strong>0</strong><span>estereotipos</span></div>
+            <div><strong>5</strong><span>pasos sencillos</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Vista previa del sistema experto">
+          <div class="visual-glow"></div>
+          <div class="recommendation-preview glass-card">
+            <div class="preview-header">
+              <div>
+                <span class="status-dot"></span>
+                <small>Análisis completado</small>
+              </div>
+              <span class="preview-badge">TOP 1</span>
+            </div>
+
+            <div class="preview-product">
+              <div class="preview-icon">⌚</div>
+              <div>
+                <span class="category">Tecnología</span>
+                <h3>Reloj inteligente</h3>
+                <p>Ideal para una persona activa y organizada.</p>
+              </div>
+            </div>
+
+            <div class="score-row">
+              <div class="score-ring">
+                <svg viewBox="0 0 80 80" aria-hidden="true">
+                  <circle cx="40" cy="40" r="32"></circle>
+                  <circle class="progress-circle" cx="40" cy="40" r="32"></circle>
+                </svg>
+                <strong>94%</strong>
+              </div>
+              <div class="reason-list">
+                <span>✓ Coincide con sus intereses</span>
+                <span>✓ Está dentro del presupuesto</span>
+                <span>✓ Adecuado para la ocasión</span>
+              </div>
+            </div>
+
+            <div class="preview-footer">
+              <span>Precio estimado</span>
+              <strong>$280.000 COP</strong>
+            </div>
+          </div>
+
+          <div class="floating-card card-a">🧠 <span>Motor de reglas</span></div>
+          <div class="floating-card card-b">⚖️ <span>Sin estereotipos</span></div>
+          <div class="floating-card card-c">📱 <span>Responsive</span></div>
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label">Cómo funciona</span>
+            <h2>Una recomendación razonada, no una respuesta al azar.</h2>
+            <p>El sistema convierte tus respuestas en hechos, aplica reglas y calcula el nivel de afinidad de cada regalo.</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-number">01</div>
+              <div class="feature-icon blue">📝</div>
+              <h3>Responde preguntas</h3>
+              <p>Edad, relación, ocasión, intereses, personalidad, presupuesto y restricciones.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-number">02</div>
+              <div class="feature-icon purple">🧠</div>
+              <h3>Analizamos reglas</h3>
+              <p>El motor compara tus respuestas con una base de conocimiento editable.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-number">03</div>
+              <div class="feature-icon green">📊</div>
+              <h3>Calculamos afinidad</h3>
+              <p>Cada alternativa recibe un porcentaje según coincidencias ponderadas.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-number">04</div>
+              <div class="feature-icon orange">🎁</div>
+              <h3>Explicamos el resultado</h3>
+              <p>Sabes por qué se recomienda cada opción y cuánto cuesta aproximadamente.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ethics-section container">
+        <div class="ethics-card">
+          <div class="ethics-icon">⚖️</div>
+          <div>
+            <span class="section-label">Recomendaciones responsables</span>
+            <h2>Las personas no son estereotipos.</h2>
+            <p>
+              El sistema nunca recomienda únicamente por género. Utiliza intereses,
+              contexto, preferencias, personalidad y restricciones reales.
+            </p>
+          </div>
+          <button class="secondary-button" id="ethicsStart">Probar el sistema</button>
+        </div>
+      </section>
+    </section>
+
+    <section id="wizardView" class="view">
+      <div class="wizard-layout container">
+        <aside class="wizard-sidebar">
+          <button class="back-home" data-view="home">← Volver al inicio</button>
+          <div class="sidebar-icon">🎁</div>
+          <span class="section-label light-label">Consulta personalizada</span>
+          <h2>Vamos a encontrar el detalle ideal.</h2>
+          <p>Cada respuesta mejora la precisión de las recomendaciones.</p>
+
+          <ol class="step-list" aria-label="Progreso de la consulta">
+            <li class="active" data-step-indicator="1"><span>1</span><div><strong>Persona</strong><small>Edad y relación</small></div></li>
+            <li data-step-indicator="2"><span>2</span><div><strong>Ocasión</strong><small>Momento especial</small></div></li>
+            <li data-step-indicator="3"><span>3</span><div><strong>Intereses</strong><small>Gustos principales</small></div></li>
+            <li data-step-indicator="4"><span>4</span><div><strong>Estilo</strong><small>Personalidad y tipo</small></div></li>
+            <li data-step-indicator="5"><span>5</span><div><strong>Presupuesto</strong><small>Valor y restricciones</small></div></li>
+          </ol>
+
+          <div class="secure-note">🔒 Las respuestas se procesan con Python y el historial se guarda en un archivo JSON local.</div>
+        </aside>
+
+        <section class="wizard-panel">
+          <div class="mobile-progress">
+            <div>
+              <strong id="mobileStepText">Paso 1 de 5</strong>
+              <span id="mobileStepName">Persona</span>
+            </div>
+            <div class="progress-track"><span id="progressFill"></span></div>
+          </div>
+
+          <form id="giftForm" novalidate>
+            <section class="form-step active" data-step="1">
+              <div class="step-heading">
+                <span class="section-label">Paso 1</span>
+                <h2>¿Para quién es el regalo?</h2>
+                <p>Comencemos con la información básica.</p>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>Edad de la persona</span>
+                  <div class="input-with-icon">
+                    <span>👤</span>
+                    <input id="edad" type="number" min="1" max="110" placeholder="Ej. 28" required>
+                    <em>años</em>
+                  </div>
+                  <small class="field-error"></small>
+                </label>
+
+                <label class="field">
+                  <span>Relación contigo</span>
+                  <div class="input-with-icon">
+                    <span>🤝</span>
+                    <select id="relacion" required>
+                      <option value="">Selecciona una opción</option>
+                    </select>
+                  </div>
+                  <small class="field-error"></small>
+                </label>
+              </div>
+            </section>
+
+            <section class="form-step" data-step="2">
+              <div class="step-heading">
+                <span class="section-label">Paso 2</span>
+                <h2>¿Cuál es la ocasión?</h2>
+                <p>El contexto ayuda a elegir un regalo apropiado.</p>
+              </div>
+
+              <div class="occasion-grid" id="occasionGrid"></div>
+              <small class="standalone-error" id="occasionError"></small>
+
+              <label class="field top-space">
+                <span>¿Cuándo lo entregarás?</span>
+                <div class="input-with-icon">
+                  <span>📅</span>
+                  <select id="urgencia">
+                    <option value="hoy">Hoy o mañana</option>
+                    <option value="semana">Durante esta semana</option>
+                    <option value="mes">Durante este mes</option>
+                    <option value="sin_prisa">Aún tengo tiempo</option>
+                  </select>
+                </div>
+              </label>
+            </section>
+
+            <section class="form-step" data-step="3">
+              <div class="step-heading">
+                <span class="section-label">Paso 3</span>
+                <h2>¿Qué le gusta?</h2>
+                <p>Selecciona todos los intereses que correspondan.</p>
+              </div>
+
+              <div class="interest-grid" id="interestGrid"></div>
+              <small class="standalone-error" id="interesesError"></small>
+            </section>
+
+            <section class="form-step" data-step="4">
+              <div class="step-heading">
+                <span class="section-label">Paso 4</span>
+                <h2>¿Cómo describirías a la persona?</h2>
+                <p>La personalidad orienta el estilo del regalo.</p>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>Personalidad predominante</span>
+                  <div class="input-with-icon">
+                    <span>✨</span>
+                    <select id="personalidad" required>
+                      <option value="">Selecciona una opción</option>
+                    </select>
+                  </div>
+                  <small class="field-error"></small>
+                </label>
+
+                <label class="field">
+                  <span>Tipo de regalo que prefieres</span>
+                  <div class="input-with-icon">
+                    <span>🎀</span>
+                    <select id="tipoRegalo" required>
+                      <option value="">Selecciona una opción</option>
+                    </select>
+                  </div>
+                  <small class="field-error"></small>
+                </label>
+              </div>
+            </section>
+
+            <section class="form-step" data-step="5">
+              <div class="step-heading">
+                <span class="section-label">Paso 5</span>
+                <h2>Define el presupuesto.</h2>
+                <p>Solo mostraremos regalos que no superen este valor.</p>
+              </div>
+
+              <label class="field">
+                <span>Presupuesto máximo</span>
+                <div class="money-field">
+                  <span>$</span>
+                  <input id="presupuesto" type="number" min="10000" max="20000000" step="10000" value="250000" required>
+                  <em>COP</em>
+                </div>
+                <small class="field-error"></small>
+              </label>
+
+              <div class="budget-buttons">
+                <button type="button" data-budget="50000">$50.000</button>
+                <button type="button" data-budget="100000">$100.000</button>
+                <button type="button" data-budget="250000" class="selected">$250.000</button>
+                <button type="button" data-budget="500000">$500.000</button>
+                <button type="button" data-budget="1000000">$1.000.000</button>
+              </div>
+
+              <fieldset class="restrictions-box">
+                <legend>¿Hay algo que debamos evitar?</legend>
+                <div class="restriction-grid">
+                  <label><input type="checkbox" name="restricciones" value="Evitar alimentos"><span>🍽️</span><strong>Alimentos</strong></label>
+                  <label><input type="checkbox" name="restricciones" value="Evitar experiencias"><span>🎟️</span><strong>Experiencias</strong></label>
+                  <label><input type="checkbox" name="restricciones" value="Alergia a plantas"><span>🪴</span><strong>Plantas</strong></label>
+                  <label><input type="checkbox" name="restricciones" value="Sensibilidad a fragancias"><span>🧴</span><strong>Fragancias</strong></label>
+                </div>
+              </fieldset>
+
+              <div class="query-summary" id="querySummary"></div>
+            </section>
+
+            <div id="formAlert" class="form-alert hidden" role="alert"></div>
+
+            <div class="form-actions">
+              <button type="button" class="secondary-button hidden" id="prevButton">← Anterior</button>
+              <button type="button" class="primary-button" id="nextButton">Continuar →</button>
+              <button type="submit" class="success-button hidden" id="submitButton">
+                <span>Obtener recomendación</span> ✨
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section id="resultsView" class="view">
+      <div class="results-page container">
+        <div class="results-header">
+          <div>
+            <span class="section-label">Análisis completado</span>
+            <h1>Estas son tus mejores opciones.</h1>
+            <p id="resultsMessage">Recomendaciones basadas en las respuestas de la consulta.</p>
+          </div>
+          <div class="results-header-actions">
+            <button class="secondary-button" id="changeBudget">Cambiar presupuesto</button>
+            <button class="primary-button" id="newQuery">Nueva consulta</button>
+          </div>
+        </div>
+
+        <div class="result-summary" id="resultSummary"></div>
+        <div class="results-grid" id="resultsGrid"></div>
+
+        <div class="results-bottom-actions">
+          <button class="secondary-button hidden" id="showMore">Ver más alternativas</button>
+          <button class="primary-button" id="anotherQuery">Realizar otra consulta</button>
+        </div>
+
+        <div class="responsible-note">
+          <span>⚖️</span>
+          <div>
+            <strong>Recomendación responsable</strong>
+            <p>El porcentaje se calcula con intereses, ocasión, relación, personalidad, presupuesto y restricciones. Nunca solo por género.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="historyView" class="view">
+      <div class="history-page container">
+        <div class="history-header">
+          <div>
+            <span class="section-label">Panel administrativo</span>
+            <h1>Historial de consultas</h1>
+            <p>Revisa las recomendaciones procesadas y guardadas por el backend en Python.</p>
+          </div>
+          <div class="history-actions">
+            <button class="secondary-button" data-view="home">Volver al inicio</button>
+            <button class="secondary-button" id="reloadKnowledge">Recargar base</button>
+            <button class="danger-button" id="clearHistory">Limpiar historial</button>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <article><span>Consultas realizadas</span><strong id="statQueries">0</strong><small>Archivo JSON</small></article>
+          <article><span>Afinidad promedio</span><strong id="statAverage">0%</strong><small>Mejores resultados</small></article>
+          <article><span>Opción más recomendada</span><strong id="statTop">—</strong><small>Según el historial</small></article>
+          <article><span>Base de conocimiento</span><strong id="statGifts">0</strong><small>Regalos disponibles</small></article>
+        </div>
+
+        <div class="history-card">
+          <div class="history-toolbar">
+            <div>
+              <h2>Consultas guardadas</h2>
+              <p>Busca por ocasión, relación, interés o regalo.</p>
+            </div>
+            <div class="search-box">
+              <span>⌕</span>
+              <input type="search" id="historySearch" placeholder="Buscar en el historial">
+            </div>
+          </div>
+
+          <div class="history-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Fecha</th>
+                  <th>Persona</th>
+                  <th>Ocasión</th>
+                  <th>Presupuesto</th>
+                  <th>Mejor recomendación</th>
+                  <th>Afinidad</th>
+                </tr>
+              </thead>
+              <tbody id="historyBody"></tbody>
+            </table>
+          </div>
+
+          <div class="empty-history hidden" id="emptyHistory">
+            <div>📭</div>
+            <h3>Aún no hay consultas.</h3>
+            <p>Realiza una recomendación para comenzar a llenar el historial.</p>
+            <button class="primary-button" id="emptyStart">Crear primera consulta</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <noscript><div class="noscript-warning">Esta aplicación necesita JavaScript activado.</div></noscript>
+
+  <div class="connection-modal hidden" id="connectionModal" role="dialog" aria-modal="true" aria-labelledby="connectionModalTitle">
+    <div class="connection-modal-card">
+      <div class="modal-icon">🐍</div>
+      <span class="section-label">Conexión requerida</span>
+      <h2 id="connectionModalTitle">Activa el motor de Python</h2>
+      <p>La interfaz visual ya está cargada, pero las recomendaciones, validaciones del servidor y el historial necesitan Flask.</p>
+      <ol>
+        <li>Vuelve a la carpeta principal.</li>
+        <li>Haz doble clic en <strong>EJECUTAR_GIFT_EXPERT.bat</strong>.</li>
+        <li>Espera a que se abra <strong>http://127.0.0.1:5000</strong>.</li>
+      </ol>
+      <div class="modal-actions">
+        <button class="secondary-button" id="closeConnectionModal">Seguir viendo el diseño</button>
+        <a class="primary-button" href="http://127.0.0.1:5000" target="_blank" rel="noopener">Abrir aplicación</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="../static/js/app.js?v=5"></script>
+</body>
+</html>
